@@ -100,6 +100,14 @@ body {
   background-image: linear-gradient(#aba19f, yellow);
 }
 
+.vcard3 {
+  margin-top: 10px;
+  margin-left: 900px;
+}
+.vcard4 {
+  margin-top: 5px;
+  margin-left: 900px;
+}
 
 .main {
   margin-left: 60px;
