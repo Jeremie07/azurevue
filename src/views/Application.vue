@@ -8,18 +8,6 @@
       <div class="vcard1">
         <v-card class="ma-15" max-width="544" >
 
-          <v-carousel>
-            <v-carousel-item
-              v-for="(item,i) in items"
-              :key="i"
-              :src="item.src"
-              reverse-transition="fade-transition"
-              transition="fade-transition"
-            ></v-carousel-item>
-          </v-carousel>
-
-
-
           <v-card-title align="center" justify="center">
             <h1> <u>Calculator</u></h1>
           </v-card-title>
@@ -45,20 +33,6 @@
           justify="center"
         >
 
-
-        <v-carousel>
-          <v-carousel-item
-            v-for="(item,i) in items"
-            :key="i"
-            :src="item.src"
-            reverse-transition="fade-transition"
-            transition="fade-transition"
-          ></v-carousel-item>
-        </v-carousel>
-
-
-
-
           <v-card-title> <h1><u>String Manipulation</u></h1> </v-card-title>
           <v-card-tex>
             <p>
@@ -81,21 +55,7 @@
           align="center"
           justify="center"
         >
-
-
-        <v-carousel>
-          <v-carousel-item
-            v-for="(item,i) in items"
-            :key="i"
-            :src="item.src"
-            reverse-transition="fade-transition"
-            transition="fade-transition"
-          ></v-carousel-item>
-        </v-carousel>
-
-
-
-          <v-card-title>
+         <v-card-title>
             <h1><u>About Me</u></h1>
           </v-card-title>
           <v-card-tex>
@@ -111,20 +71,6 @@
 
       <div class="vcard4">
         <v-card class="ma-15" max-width="544">
-
-
-          <v-carousel>
-            <v-carousel-item
-              v-for="(item,i) in items"
-              :key="i"
-              :src="item.src"
-              reverse-transition="fade-transition"
-              transition="fade-transition"
-            ></v-carousel-item>
-          </v-carousel>
-
-
-
 
           <v-card-title align="center" justify="center">
             <h1><u>Quiz</u></h1>
@@ -185,26 +131,3 @@ p {
   background-color: black;
 }
 </style>
-
-<script>
-  export default {
-    data () {
-      return {
-        items: [
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
-          },
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
-          },
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
-          },
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
-          },
-        ],
-      }
-    },
-  }
-</script>
