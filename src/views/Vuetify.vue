@@ -1,10 +1,11 @@
 <template>
   <body>
-    <v-card color="transparent">  <img id="logo-crown" src="/vue.jpg" alt="logo" /></v-card>
-  <v-card
 
+  <v-card
+    max-width="800"
     class="mx-auto"
   >
+  <img id="logo-crown" src="/vue.jpg" alt="logo" class="center" /> 
        <v-container>
       <v-row dense>
         <v-col cols="12">
@@ -40,31 +41,48 @@
             :color="item.color"
             dark
           >
-            <div class="d-flex flex-no-wrap justify-space-between">
-              <v-card-title class="text-h5">
-                What is Vuetify?
-              </v-card-title>
-  
-              <v-card-subtitle>
-               <p> Vuetify complies with the Material Design specification, meaning the core features of both Vue and Material are available by default and can be improved upon by both communities. In addition, Vuetify offers the following features: 
-                Compatibility with Vue CLI-3 and RTL Templates for various frameworks, like Cordova, webpack, etc. Internationalization SSR and PWA
-              </p>
-              </v-card-subtitle>
-  
+          <div class="d-flex flex-no-wrap justify-space-between">
+            <div>
+              <v-card-title
+                class="text-h5"
+                v-text="item.title"
+              ></v-card-title>
+
+              <v-card-subtitle v-text="item.artist"></v-card-subtitle>
+
               <v-card-actions>
-                <v-btn text>
-                 <a href="https://vuetifyjs.com/en/"> Reference </a>
+                <v-btn
+                  v-if="item.artist === 'Ellie Goulding'"
+                  class="ml-2 mt-3"
+                  fab
+                  icon
+                  height="40px"
+                  right
+                  width="40px"
+                >
+                  <v-icon>mdi-play</v-icon>
+                </v-btn>
+
+                <v-btn
+                  v-else
+                  class="ml-2 mt-5"
+                  outlined
+                  rounded
+                  small
+                >
+                  START RADIO
                 </v-btn>
               </v-card-actions>
-
-              <v-avatar
-                class="ma-3"
-                size="125"
-                tile
-              >
-                <v-img :src="item.src"></v-img>
-              </v-avatar>
             </div>
+
+            <v-avatar
+              class="ma-3"
+              size="125"
+              tile
+            >
+              <v-img :src="item.src"></v-img>
+            </v-avatar>
+          </div>
           </v-card>
         </v-col>
       </v-row>
@@ -83,7 +101,7 @@
           color: '#1F7087',
           src: '/vue.jpg',
           title: 'What is Vuetify?',
-          artist: 'asdas',
+          artist: 'Vuetify complies with the Material Design specification, meaning the core features of both Vue and Material are available by default and can be improved upon by both communities',
         },
         {
           color: '#952175',
@@ -105,5 +123,10 @@
       text-indent: 10px;
       text-align: justify;
   }
-
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 </style>
