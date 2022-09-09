@@ -11,7 +11,7 @@
       <!-- dropdown menu -->
       <v-menu open-on-hover>
         <template v-slot:activator="{ props }">
-          <v-btn color="primary" v-bind="props"> Dropdown </v-btn>
+          <v-btn color="primary" v-bind="props"> Menu </v-btn>
         </template>
 
         <v-list>
@@ -68,6 +68,14 @@ const items = ref([
     { title: "Quiz",
    icon: "mdi-frequently-asked-questions",
     path: "/quiz" },
+
+    { title: "Vuetify",
+   icon: "mdi-vuetify",
+    path: "/vuetify" },
+
+    { title: "Application",
+   icon: "mdi-view-dashboard-edit-outline",
+    path: "/application" },
 ]);
 
 function toggleDrawer() {

@@ -2,8 +2,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 import BasicMathView from '../views/BasicMathView.vue'
 import StringAppView from '../views/StringAppView.vue'
 import HomeView from '../views/Dashboard.vue'
-import AxiosDemo from '../views/AxiosDemo.vue'
+import Vuetify from '../views/Vuetify.vue'
 import Quiz from '../views/Quiz.vue'
+import Application from '../views/Application.vue'
 
 
 const router = createRouter({
@@ -30,6 +31,15 @@ const router = createRouter({
       component: Quiz
       },
 
+      {  path: '/vuetify',
+      name: 'vuetify',
+      component: Vuetify
+      },
+
+      {  path: '/application',
+      name: 'application',
+      component: Application
+      },
   ]
 })
 
