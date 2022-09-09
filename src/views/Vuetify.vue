@@ -5,7 +5,7 @@
           <v-card class="justify-center" max-width="544">
             <div class="card">
               <img
-                src="/vuetify.JPG"
+                src="/vuetify.jpg"
                 alt="vuetify"
                 style="width: 60%"
                 class="center"
