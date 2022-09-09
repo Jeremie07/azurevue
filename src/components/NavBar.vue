@@ -3,8 +3,8 @@
     <v-toolbar app color="#ABA19F">
       <v-app-bar-nav-icon @click="toggleDrawer"></v-app-bar-nav-icon>
       <v-toolbar-title>
-        <span class="font-weight-light">Vuetify Azure</span>
-        <span>Midterm Project</span>
+        <span class="font-weight-light">Vuetify Azure </span>
+        <span> Midterm Project</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
 
