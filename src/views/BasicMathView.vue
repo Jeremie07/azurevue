@@ -4,6 +4,7 @@
       <br /><br />
 
       <v-card>
+        <br><br>
         <v-row align="center" justify="center" dense>
           <h1>Calculator</h1>
           <br /><br />

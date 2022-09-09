@@ -1,4 +1,5 @@
 <template>
+    <v-row align="center" justify="center" dense>
     <v-footer
       dark
       padless
@@ -31,6 +32,7 @@
         </v-card-text>
       </v-card>
     </v-footer>
+</v-row>
   </template>
 
 
