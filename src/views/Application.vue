@@ -6,7 +6,8 @@
       <br /><br />
 
       <div class="vcard1">
-        <v-card class="ma-15" max-width="544" >
+        <v-card class="ma-15" max-width="544" align="center"
+        justify="center" >
           <img
           src="/vue.jpg"
           alt="VUE"
@@ -89,7 +90,8 @@
       </div>
 
       <div class="vcard4">
-        <v-card class="ma-15" max-width="544">
+        <v-card class="ma-15" max-width="544"  align="center"
+        justify="center">
           <img
           src="/vue.jpg"
           alt="VUE"
@@ -128,7 +130,7 @@ body {
 }
 
 .vcard3 {
-  margin-top: -900px;
+  margin-top: -1000px;
   margin-left: 900px;
 }
 .vcard4 {
