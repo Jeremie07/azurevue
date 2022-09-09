@@ -7,7 +7,12 @@
 
       <div class="vcard1">
         <v-card class="ma-15" max-width="544" >
-
+          <img
+          src="/vue.jpg"
+          alt="VUE"
+          style="width: 60%"
+          class="center"
+        />
           <v-card-title align="center" justify="center">
             <h1> <u>Calculator</u></h1>
           </v-card-title>
@@ -33,6 +38,13 @@
           justify="center"
         >
 
+        <img
+        src="/vue.jpg"
+        alt="VUE"
+        style="width: 60%"
+        class="center"
+      />
+
           <v-card-title> <h1><u>String Manipulation</u></h1> </v-card-title>
           <v-card-tex>
             <p>
@@ -55,6 +67,13 @@
           align="center"
           justify="center"
         >
+        <img
+        src="/vue.jpg"
+        alt="VUE"
+        style="width: 60%"
+        class="center"
+      />
+
          <v-card-title>
             <h1><u>About Me</u></h1>
           </v-card-title>
@@ -71,7 +90,12 @@
 
       <div class="vcard4">
         <v-card class="ma-15" max-width="544">
-
+          <img
+          src="/vue.jpg"
+          alt="VUE"
+          style="width: 60%"
+          class="center"
+        />
           <v-card-title align="center" justify="center">
             <h1><u>Quiz</u></h1>
           </v-card-title>
