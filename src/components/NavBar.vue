@@ -73,8 +73,8 @@ const items = ref([
    icon: "mdi-vuetify",
     path: "/vuetify" },
 
-    { title: "Application",
-   icon: "mdi-view-dashboard-edit-outline",
+    { title: "About the project",
+   icon: "mdi-information-outline",
     path: "/application" },
 ]);
 

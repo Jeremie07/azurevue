@@ -4,9 +4,15 @@
         <v-row align="center" justify="center" dense>
           <v-card class="justify-center" max-width="544">
             <div class="card">
+                <img
+                src="/vue.jpg"
+                alt="VUE"
+                style="width: 60%"
+                class="center"
+              />
 
               <div class="container">
-                <h2>Vuetify</h2>
+              <v-card-title align="center" justify="center">  <h1>Vuetify</h1> </v-card-title>
                 <v-card-subtitle>
                  Description
                 </v-card-subtitle>
@@ -20,7 +26,11 @@
 
                 <br />
                 <br />
-                <p>mjegapasin@tip.edu.ph</p>
+                <br />
+                <br />  <br />
+                <br />  <br />
+                <br />  <br />
+                <br />
                 <p><button class="button"></button></p>
               </div>
             </div>
