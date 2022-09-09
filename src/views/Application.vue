@@ -89,7 +89,7 @@
 
     <br /><br />
     <br /><br /><br />
-    <br /><br />
+
   </body>
 </template>
   
@@ -101,7 +101,7 @@ body {
 }
 
 .vcard3 {
-  margin-top: 160px;
+  margin-top: 60px;
   margin-left: 900px;
 }
 .vcard4 {
