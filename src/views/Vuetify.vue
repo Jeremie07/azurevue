@@ -12,7 +12,7 @@
               />
 
               <div class="container">
-              <v-card-title align="center" justify="center">  <h1>Vuetify</h1> </v-card-title>
+              <v-card-title align="center" justify="center">  <h1><u>Vuetify</u></h1> </v-card-title>
               <br><br>
                 <v-card-subtitle>
                  Description
@@ -49,6 +49,7 @@
 
     p {
         text-indent: 50px;
+        text-align: justify;
     }
 
       .center {
