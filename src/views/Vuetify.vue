@@ -11,14 +11,19 @@
             dark
           >
             <v-card-title class="text-h5">
-              Unlimited music now
+              Vuetify
             </v-card-title>
 
-            <v-card-subtitle>Listen to your favorite artists and albums whenever and wherever, online and offline.</v-card-subtitle>
+            <v-card-subtitle>
+              Vuetify is a Vue UI Library with beautifully handcrafted Material Components. No design skills required — everything you need to create amazing applications is at your fingertips.
+              Vuetify is a component framework for Vue.js 2. It aims to provide clean, semantic and reusable components that make building your application a breeze. Vuetify utilizes Google's Material Design design pattern, taking cues from other popular frameworks such as Materialize.css, Material Design Lite, Semantic UI and Bootstrap 4.
+              Vuetify is a tool in the Front-End Frameworks category of a tech stack.
+
+            </v-card-subtitle>
 
             <v-card-actions>
               <v-btn text>
-                Listen Now
+               <a href="https://vuetifyjs.com/en/"> Reference </a>
               </v-btn>
             </v-card-actions>
           </v-card>
@@ -52,7 +57,7 @@
                     right
                     width="40px"
                   >
-                    <v-icon>mdi-play</v-icon>
+                    <v-icon><a href="https://www.youtube.com/watch?v=CjXgoYo86yY&ab_channel=MakeAppswithDanny">mdi-play</a></v-icon>
                   </v-btn>
 
                   <v-btn
@@ -62,7 +67,7 @@
                     rounded
                     small
                   >
-                    START RADIO
+                   <a href="https://blog.logrocket.com/getting-started-is-vuetify-right-for-you/"> Reference</a>
                   </v-btn>
                 </v-card-actions>
               </div>
@@ -80,6 +85,8 @@
       </v-row>
     </v-container>
   </v-card>
+
+  <br><br><br><br>
 </template>
 
 <script>
@@ -88,15 +95,15 @@
       items: [
         {
           color: '#1F7087',
-          src: 'https://cdn.vuetifyjs.com/images/cards/foster.jpg',
-          title: 'Supermodel',
-          artist: 'Foster the People',
+          src: '/vue.jpg',
+          title: 'What is Vuetify?',
+          artist: 'Vuetify complies with the Material Design specification, meaning the core features of both Vue and Material are available by default and can be improved upon by both communities. In addition, Vuetify offers the following features: Compatibility with Vue CLI-3 and RTL Templates for various frameworks, like Cordova, webpack, etc. Internationalization SSR and PWA',
         },
         {
           color: '#952175',
-          src: 'https://cdn.vuetifyjs.com/images/cards/halcyon.png',
-          title: 'Halcyon Days',
-          artist: 'Ellie Goulding',
+          src: '/yt.png',
+          title: 'Vuetify Turorial',
+          artist: 'Click the play icon to go to the video',
         },
       ],
     }),
