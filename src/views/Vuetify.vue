@@ -6,6 +6,10 @@
     class="mx-auto"
   >
   <img id="logo-crown" src="/vue.jpg" alt="logo" class="center" /> 
+
+
+
+
        <v-container>
       <v-row dense>
         <v-col cols="12">
@@ -17,12 +21,12 @@
               Vuetify
             </v-card-title>
 
-            <v-card-subtitle>
+            <v-card-text>
              <p> Vuetify is a Vue UI Library with beautifully handcrafted Material Components. No design skills required — everything you need to create amazing applications is at your fingertips.
               Vuetify is a component framework for Vue.js 2. It aims to provide clean, semantic and reusable components that make building your application a breeze. Vuetify utilizes Google's Material Design design pattern, taking cues from other popular frameworks such as Materialize.css, Material Design Lite, Semantic UI and Bootstrap 4.
               Vuetify is a tool in the Front-End Frameworks category of a tech stack.
             </p>
-            </v-card-subtitle>
+            </v-card-text>
 
             <v-card-actions>
               <v-btn text>
@@ -70,7 +74,9 @@
                   rounded
                   small
                 >
-                  START RADIO
+                <a href="https://blog.logrocket.com/getting-started-is-vuetify-right-for-you/">
+                  Reference
+                </a>
                 </v-btn>
               </v-card-actions>
             </div>
@@ -101,7 +107,7 @@
           color: '#1F7087',
           src: '/vue.jpg',
           title: 'What is Vuetify?',
-          artist: 'Vuetify complies with the Material Design specification, meaning the core features of both Vue and Material are available by default and can be improved upon by both communities',
+          artist: 'Ellie Goulding',
         },
         {
           color: '#952175',
