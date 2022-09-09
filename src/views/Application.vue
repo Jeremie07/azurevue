@@ -11,7 +11,7 @@
           <img
           src="/cal.jpg"
           alt="VUE"
-          style="width: 60%"
+          style="width: 100%" height="60%"
           class="center"
         />
           <v-card-title align="center" justify="center">
@@ -42,7 +42,7 @@
         <img
         src="/string.jpg"
         alt="VUE"
-        style="width: 60%"
+        style="width: 100%" height="60%"
         class="center"
       />
 
@@ -71,7 +71,7 @@
         <img
         src="/me.jpg"
         alt="VUE"
-        style="width: 60%"
+        style="width: 100%" height="60%"
         class="center"
       />
 
@@ -95,7 +95,7 @@
           <img
           src="/vue.jpg"
           alt="VUE"
-          style="width: 60%"
+          style="width: 100%"
           class="center"
         />
           <v-card-title align="center" justify="center">
@@ -130,7 +130,7 @@ body {
 }
 
 .vcard3 {
-  margin-top: -1500px;
+  margin-top: -1300px;
   margin-left: 900px;
 }
 .vcard4 {

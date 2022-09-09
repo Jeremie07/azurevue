@@ -2,6 +2,7 @@
     <body>
 
   <v-card color="transparent">  <img id="logo-crown" src="@/assets/quiz.png" alt="logo" /></v-card>
+  <v-row align="center" justify="center" dense>
   <v-card height="50%" width="80%"  align="center" justify="center">
   <v-card-title><h1 id="logo-headline">Music!</h1></v-card-title>
    <v-card-title> <h5 id="logo-headline">Score: {{score}} / {{questions.length}}</h5> </v-card-title>
@@ -24,7 +25,9 @@
     </v-card>
       <hr class="divider" />
     </div>
+    
   </v-card>
+</v-row>
   
  <br><br> <br><br> <br><br> <br><br><br><br><br>
 </body>
