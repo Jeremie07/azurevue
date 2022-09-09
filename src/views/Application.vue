@@ -9,7 +9,7 @@
         <v-card class="ma-15" max-width="544" align="center"
         justify="center" >
           <img
-          src="/vue.jpg"
+          src="/cal.jpg"
           alt="VUE"
           style="width: 60%"
           class="center"
@@ -40,7 +40,7 @@
         >
 
         <img
-        src="/vue.jpg"
+        src="/string.jpg"
         alt="VUE"
         style="width: 60%"
         class="center"
@@ -69,7 +69,7 @@
           justify="center"
         >
         <img
-        src="/vue.jpg"
+        src="/me.jpg"
         alt="VUE"
         style="width: 60%"
         class="center"
@@ -130,7 +130,7 @@ body {
 }
 
 .vcard3 {
-  margin-top: -1000px;
+  margin-top: -1500px;
   margin-left: 900px;
 }
 .vcard4 {
