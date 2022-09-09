@@ -56,7 +56,7 @@
 
               <v-card-actions>
                 <v-btn
-                  v-if="item.artist === 'Ellie Goulding'"
+                  v-if="item.artist === 'Make Apps with Danny'"
                   class="ml-2 mt-3"
                   fab
                   icon
@@ -74,7 +74,7 @@
                   rounded
                   small
                 >
-                <a href="https://blog.logrocket.com/getting-started-is-vuetify-right-for-you/">
+                <a href="https://www.youtube.com/watch?v=CjXgoYo86yY&ab_channel=MakeAppswithDanny/">
                   Reference
                 </a>
                 </v-btn>
@@ -107,13 +107,13 @@
           color: '#1F7087',
           src: '/vue.jpg',
           title: 'What is Vuetify?',
-          artist: 'Ellie Goulding',
+          artist: 'Make Apps with Danny',
         },
         {
           color: '#952175',
           src: '/yt.png',
           title: 'Vuetify Turorial',
-          artist: 'Click the play icon to go to the video',
+          artist: 'Click the play Reference to go to the video',
         },
       ],
     }),
