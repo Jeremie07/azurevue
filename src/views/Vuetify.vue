@@ -1,6 +1,6 @@
 <template>
   <body>
-    <v-card color="transparent">  <img id="logo-crown" src="@/assets/vue.jpg" alt="logo" /></v-card>
+    <v-card color="transparent">  <img id="logo-crown" src="/vue.jpg" alt="logo" /></v-card>
   <v-card
 
     class="mx-auto"
@@ -102,7 +102,7 @@
     }
 
   p {
-      text-indent: 50px;
+      text-indent: 10px;
       text-align: justify;
   }
 
