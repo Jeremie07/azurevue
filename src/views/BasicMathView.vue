@@ -5,46 +5,46 @@
 
       <v-card>
         <v-row align="center" justify="center" dense>
-      <h1>Calculator</h1>
-      <br /><br />
+          <h1>Calculator</h1>
+          <br /><br />
 
-      <v-container fluid>
-        <v-text-field
-          label="First Input"
-          v-model.number="fNumber"
-        ></v-text-field>
-        <v-text-field
-          label="Second Input"
-          v-model.number="sNumber"
-        ></v-text-field>
+          <v-container fluid>
+            <v-text-field
+              label="First Input"
+              v-model.number="fNumber"
+            ></v-text-field>
+            <v-text-field
+              label="Second Input"
+              v-model.number="sNumber"
+            ></v-text-field>
 
-        <div class="button1">
-          <v-btn @click="doSum">Sum</v-btn>
-        </div>
-        <div class="button2">
-          <br />
-          <v-btn @click="doDifference">Difference</v-btn>
-        </div>
-        <div class="button3">
-          <v-btn @click="doProduct">Product</v-btn>
-        </div>
-        <div class="button4">
-          <br />
-          <v-btn @click="doQuotient">Quotient</v-btn>
-        </div>
-        <div class="button5">
-          <v-btn @click="doAverage">Average</v-btn>
-        </div>
+            <div class="button1">
+              <v-btn @click="doSum">Sum</v-btn>
+            </div>
+            <div class="button2">
+              <br />
+              <v-btn @click="doDifference">Difference</v-btn>
+            </div>
+            <div class="button3">
+              <v-btn @click="doProduct">Product</v-btn>
+            </div>
+            <div class="button4">
+              <br />
+              <v-btn @click="doQuotient">Quotient</v-btn>
+            </div>
+            <div class="button5">
+              <v-btn @click="doAverage">Average</v-btn>
+            </div>
 
-        <div class="button6">
-          <v-btn @click="doClear">Clear</v-btn>
-        </div>
+            <div class="button6">
+              <v-btn @click="doClear">Clear</v-btn>
+            </div>
 
-        <br />
-        <h2>Result: {{ result }}</h2>
-      </v-container>
+            <br />
+            <h2>Result: {{ result }}</h2>
+          </v-container>
         </v-row>
-    </v-card>
+      </v-card>
     </div>
     <br />
     <br />
@@ -65,6 +65,7 @@
     <br />
     <br />
     <br />
+    
   </body>
 </template>
 
