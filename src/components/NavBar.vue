@@ -34,7 +34,7 @@
     </v-toolbar>
 
     <v-navigation-drawer app v-model="drawer" color="black">
-      <br><br> <br><br><br>
+      <br><br> <br><br><br><br><br><br>
       <v-list-item
         v-for="item in items"
         :key="item.title"
