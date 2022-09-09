@@ -11,7 +11,7 @@
           <img
           src="/cal.jpg"
           alt="VUE"
-          style="width: 100%" height="60%"
+          style="width: 100%"
           class="center"
         />
           <v-card-title align="center" justify="center">
@@ -42,7 +42,7 @@
         <img
         src="/string.jpg"
         alt="VUE"
-        style="width: 100%" height="60%"
+        style="width: 100%" 
         class="center"
       />
 
@@ -71,7 +71,7 @@
         <img
         src="/me.jpg"
         alt="VUE"
-        style="width: 100%" height="60%"
+        style="width: 100%"
         class="center"
       />
 
@@ -93,7 +93,7 @@
         <v-card class="ma-15" max-width="544"  align="center"
         justify="center">
           <img
-          src="/vue.jpg"
+          src="/quiz.jpg"
           alt="VUE"
           style="width: 100%"
           class="center"
