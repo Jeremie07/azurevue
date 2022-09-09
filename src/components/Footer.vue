@@ -10,6 +10,11 @@
         width="100%"
         class="red lighten-1 text-center"
       >
+
+      <strong class="subheading">Get connected with me on social media!</strong>
+      
+      <v-spacer></v-spacer>
+
         <v-card-text>
           <v-btn
             v-for="icon in icons"
