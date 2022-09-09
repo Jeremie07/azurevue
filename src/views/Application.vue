@@ -6,7 +6,20 @@
       <br /><br />
 
       <div class="vcard1">
-        <v-card class="ma-15" max-width="544" color="yellow">
+        <v-card class="ma-15" max-width="544" >
+
+          <v-carousel>
+            <v-carousel-item
+              v-for="(item,i) in items"
+              :key="i"
+              :src="item.src"
+              reverse-transition="fade-transition"
+              transition="fade-transition"
+            ></v-carousel-item>
+          </v-carousel>
+
+
+
           <v-card-title align="center" justify="center">
             <h1> <u>Calculator</u></h1>
           </v-card-title>
@@ -27,10 +40,25 @@
         <v-card
           class="ma-15"
           max-width="544"
-          color="orange"
+    
           align="center"
           justify="center"
         >
+
+
+        <v-carousel>
+          <v-carousel-item
+            v-for="(item,i) in items"
+            :key="i"
+            :src="item.src"
+            reverse-transition="fade-transition"
+            transition="fade-transition"
+          ></v-carousel-item>
+        </v-carousel>
+
+
+
+
           <v-card-title> <h1><u>String Manipulation</u></h1> </v-card-title>
           <v-card-tex>
             <p>
@@ -49,10 +77,24 @@
         <v-card
           class="ma-15"
           max-width="544"
-          color="blue"
+      
           align="center"
           justify="center"
         >
+
+
+        <v-carousel>
+          <v-carousel-item
+            v-for="(item,i) in items"
+            :key="i"
+            :src="item.src"
+            reverse-transition="fade-transition"
+            transition="fade-transition"
+          ></v-carousel-item>
+        </v-carousel>
+
+
+
           <v-card-title>
             <h1><u>About Me</u></h1>
           </v-card-title>
@@ -68,7 +110,22 @@
       </div>
 
       <div class="vcard4">
-        <v-card class="ma-15" max-width="544" color="#30E66A">
+        <v-card class="ma-15" max-width="544">
+
+
+          <v-carousel>
+            <v-carousel-item
+              v-for="(item,i) in items"
+              :key="i"
+              :src="item.src"
+              reverse-transition="fade-transition"
+              transition="fade-transition"
+            ></v-carousel-item>
+          </v-carousel>
+
+
+
+
           <v-card-title align="center" justify="center">
             <h1><u>Quiz</u></h1>
           </v-card-title>
@@ -128,3 +185,26 @@ p {
   background-color: black;
 }
 </style>
+
+<script>
+  export default {
+    data () {
+      return {
+        items: [
+          {
+            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+          },
+          {
+            src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+          },
+          {
+            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+          },
+          {
+            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+          },
+        ],
+      }
+    },
+  }
+</script>
