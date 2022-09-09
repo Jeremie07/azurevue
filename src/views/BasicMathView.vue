@@ -2,6 +2,9 @@
   <body style="background-color: gray">
     <div class="main">
       <br /><br />
+
+      <v-card>
+        <v-row align="center" justify="center" dense>
       <h1>Calculator</h1>
       <br /><br />
 
@@ -40,6 +43,8 @@
         <br />
         <h2>Result: {{ result }}</h2>
       </v-container>
+        </v-row>
+    </v-card>
     </div>
     <br />
     <br />

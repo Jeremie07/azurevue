@@ -7,7 +7,7 @@
 
       <div class="vcard1">
         <v-card class="ma-15" max-width="544" align="center"
-        justify="center" >
+        justify="center" height="70%" >
           <img
           src="/cal.jpg"
           alt="VUE"
@@ -34,7 +34,7 @@
         <v-card
           class="ma-15"
           max-width="544"
-    
+          height="60%"
           align="center"
           justify="center"
         >
@@ -64,7 +64,7 @@
         <v-card
           class="ma-15"
           max-width="544"
-      
+          height="50%"
           align="center"
           justify="center"
         >
@@ -90,7 +90,7 @@
       </div>
 
       <div class="vcard4">
-        <v-card class="ma-15" max-width="544"  align="center"
+        <v-card class="ma-15" max-width="544"  align="center"  height="80%"
         justify="center">
           <img
           src="/quiz.jpg"
