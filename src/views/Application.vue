@@ -101,7 +101,7 @@ body {
 }
 
 .vcard3 {
-  margin-top: -700px;
+  margin-top: -900px;
   margin-left: 900px;
 }
 .vcard4 {

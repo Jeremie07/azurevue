@@ -12,7 +12,7 @@
               />
 
               <div class="container">
-              <v-card-title align="center" justify="center">  <h1><u>Vuetify</u></h1> </v-card-title>
+              <v-card-title align="center" justify="center" height="70%">  <h1><u>Vuetify</u></h1> </v-card-title>
               <br><br>
                 <v-card-subtitle>
                  Description
@@ -25,19 +25,18 @@
                     Vuetify is an open source tool with 35.1K GitHub stars and 6.3K GitHub forks. Here's a link to Vuetify's open source repository on GitHu
                 </p>  
                 </v-card-tex>
-
-                <br />
-                <br />
-                <br />
-                <br />  <br />
-                <br />  <br />
-                <br />  <br />
-                <br />
                 <p><button class="button"></button></p>
               </div>
             </div>
           </v-card>
         </v-row>
+        <br />
+        <br />
+        <br />
+        <br />  <br />
+        <br />  <br />
+        <br />  <br />
+        <br />
       </div>
     </body>
 </template>
