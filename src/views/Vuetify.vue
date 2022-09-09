@@ -4,12 +4,7 @@
         <v-row align="center" justify="center" dense>
           <v-card class="justify-center" max-width="544">
             <div class="card">
-              <img
-                src="/vuetify.jpg"
-                alt="vuetify"
-                style="width: 60%"
-                class="center"
-              />
+
               <div class="container">
                 <h2>Vuetify</h2>
                 <v-card-subtitle>
