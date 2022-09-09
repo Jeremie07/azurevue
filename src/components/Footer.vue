@@ -9,13 +9,11 @@
       flat
       tile
     >
-    <v-row align="center" justify="center" dense>
+
       <v-card-title class="teal">
         <strong class="subheading">Get connected with Me on Social Media!</strong>
 
-        <v-spacer></v-spacer>
-
-        <v-btn
+         <v-btn
           v-for="icon in icons"
           :key="icon"
           class="mx-4"
@@ -31,7 +29,7 @@
       <v-card-text class="py-2 white--text text-center">
         {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
       </v-card-text>
-    </v-row>
+   
     </v-card>
   </v-footer>
 
